@@ -9,8 +9,8 @@ sites:
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: adambot.is-a.dev
-  # baseUrl: /your-repo-name
+
+  baseUrl: /upptime
   logoUrl: https://cdn.discordapp.com/avatars/936438932864921661/6ddd2b34d4ea30600361a06d71132f56.webp?size=512
   name: AdamBot
   introTitle: "Introducing AdamBot, your go-to utility, event, and fun bot for Discord! "
