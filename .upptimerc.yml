@@ -7,11 +7,27 @@ sites:
     url: https://adambot.vercel.app
   - name: Bot
     url: http://nl2-2.deploy.sbs:2557
+    expectedStatusCodes:
+      - 200
+    maxResponseTime: 2500
+    assignees:
+      - adambotfd
+
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
 
 status-website:
+
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-
+  theme: night
+  favicon: https://cdn.discordapp.com/avatars/936438932864921661/6ddd2b34d4ea30600361a06d71132f56.webp?size=512
   baseUrl: /upptime
   logoUrl: https://cdn.discordapp.com/avatars/936438932864921661/6ddd2b34d4ea30600361a06d71132f56.webp?size=512
   name: AdamBot
