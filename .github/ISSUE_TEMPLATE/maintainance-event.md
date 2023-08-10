@@ -2,7 +2,7 @@
 name: Maintenance Event
 about: Schedule a work window
 title: "{insert_maintanence_title_here}"
-labels: ''
+labels: 'maintenance'
 assignees: ''
 
 ---
