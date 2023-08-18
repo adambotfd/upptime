@@ -6,7 +6,7 @@ sites:
   - name: Website
     url: https://adambot.vercel.app
   - name: AdamBot
-    url: http://nl2-2.deploy.sbs:2557
+    url: http://IL1.deploy.sbs:65229
     expectedStatusCodes:
       - 200
     maxResponseTime: 2500
