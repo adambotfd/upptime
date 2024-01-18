@@ -6,18 +6,16 @@
     "slug": "website",
     "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.20%",
-    "uptimeWeek": "99.89%",
-    "uptimeMonth": "99.97%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 104,
-    "timeDay": 104,
+    "timeDay": 103,
     "timeWeek": 93,
     "timeMonth": 97,
     "timeYear": 104,
-    "dailyMinutesDown": {
-      "2024-01-17": 12
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "AdamBot",
@@ -36,7 +34,8 @@
     "timeMonth": 0,
     "timeYear": 413,
     "dailyMinutesDown": {
-      "2024-01-17": 1322,
+      "2024-01-18": 49,
+      "2024-01-17": 1440,
       "2024-01-16": 1440,
       "2024-01-15": 1440,
       "2024-01-14": 1440,
